@@ -9,7 +9,7 @@ public class hub {
     @Test
     public void test(){
         clearBrowserCookies();
-        Configuration.remote="http://localhost:4444/wd/hub";
+        Configuration.remote="http://localhost:5001/wd/hub";
         open("http://www.baidu.com");
         screenshot("百度");
 
@@ -19,7 +19,7 @@ public class hub {
     @Test
     public void test1(){
         clearBrowserCookies();
-        Configuration.remote="http://localhost:4444/wd/hub";
+        Configuration.remote="http://localhost:5001/wd/hub";
         open("http://qq.com");
         screenshot("百度");
         sleep(20000);
